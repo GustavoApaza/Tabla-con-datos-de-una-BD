@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    margin: 0;
+    margin-bottom: 40px;
+    background-color: rgb(175, 193, 253);
+}
+
+header h1{
+    text-align: center;
+    color: red;
+    font-size: 50px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 500px;
+    margin: 50px auto 0 auto;
+    font-size: 20px;
+}
+
+table th, td{
+    border: solid 1px;
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(146, 146, 146);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+}
